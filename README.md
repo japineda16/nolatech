@@ -6,11 +6,10 @@ Este proyecto es un **monorepo** que contiene tanto el **frontend** como el **ba
 
 ## 🗂 Estructura del proyecto
 
-nolatech-monorepo/
-├── apps/
-│ ├── frontend/ # React + Vite + Tailwind + Zustand + shadcn + Socket.IO Client
-│ └── backend/ # Express + Socket.IO Server
-├── package.json # Monorepo con configuración de workspaces
+- apps/
+  - frontend/ # React + Vite + Tailwind + Zustand + shadcn + Socket.IO Client
+  - backend/ # Express + Socket.IO Server
+- package.json # Monorepo con configuración de workspaces
 
 ---
 
