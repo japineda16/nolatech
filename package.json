@@ -1,0 +1,26 @@
+{
+  "name": "nolatech-monorepo",
+  "private": true,
+  "workspaces": [
+    "apps/frontend",
+    "apps/backend"
+  ],
+  "scripts": {
+    "dev": "npm run dev --workspace=apps/frontend",
+    "dev:backend": "npm run dev --workspace=apps/backend",
+    "dev:all": "npm run dev --workspace=apps/frontend & npm run dev --workspace=apps/backend",
+    "build": "npm run build --workspace=apps/frontend",
+    "build:backend": "npm run build --workspace=apps/backend",
+    "build:all": "npm run build --workspace=apps/frontend & npm run build --workspace=apps/backend",
+    "start": "npm run start --workspace=apps/backend",
+    "start:frontend": "npm run start --workspace=apps/frontend"
+  },
+  "dependencies": {
+    "caniuse-lite": "^1.0.30001724",
+    "react-hook-form": "^7.58.1",
+    "zod": "^3.25.67"
+  },
+  "devDependencies": {
+    "rollup-plugin-visualizer": "^6.0.3"
+  }
+}
