@@ -44,7 +44,7 @@ nolatech-monorepo/
 1. Clona el repositorio:
 
    ```bash
-   git clone https://github.com/tu-usuario/nolatech-monorepo.git
+   git clone https://github.com/japineda16/nolatech.git
    cd nolatech-monorepo
    ```
 
